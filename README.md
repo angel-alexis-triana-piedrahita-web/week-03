@@ -35,4 +35,4 @@ Sistema Principal
 - Integración funcional con DOM
 
 ## Autor
-Angel Piedrahita
+Angel Alexis Triana Piedrahita
