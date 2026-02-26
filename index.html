@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Live your life, live your flight</title>
+  <link rel="stylesheet" href="./src/ui/css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Live your life, live your flight ✈️</h1>
+    <div id="stats"></div>
+  </header>
+
+  <section>
+    <h2>Crear elemento</h2>
+    <form id="itemForm">
+      <input type="text" id="name" placeholder="Nombre" required>
+      <input type="text" id="location" placeholder="Ubicación" required>
+      <select id="type">
+        <option value="Flight">Flight</option>
+        <option value="Hotel">Hotel</option>
+        <option value="Activity">Activity</option>
+      </select>
+      <button type="submit">Agregar</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Catálogo</h2>
+    <input type="text" id="search" placeholder="Buscar por nombre">
+    <select id="filter">
+      <option value="All">Todos</option>
+      <option value="Flight">Flight</option>
+      <option value="Hotel">Hotel</option>
+      <option value="Activity">Activity</option>
+    </select>
+    <ul id="itemList"></ul>
+  </section>
+
+  <script type="module" src="./src/ui/app.js"></script>
+</body>
+</html>
