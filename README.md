@@ -3,7 +3,7 @@
 Proyecto Week-03 - JavaScript Moderno Bootcamp
 
 ## Dominio
-Aplicación web de planificación y gestión de viajes.
+App de planificacion de viajes.
 
 ## Objetivo
 Implementar un sistema de gestión completo utilizando Programación Orientada a Objetos con sintaxis ES2023.
